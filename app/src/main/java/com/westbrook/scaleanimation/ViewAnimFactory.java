@@ -21,9 +21,15 @@ public class ViewAnimFactory {
         view.requestLayout();
 
         listener.onWidth(width);
-
-        Log.e(ViewAnimFactory.class.getName(), "setWidth: " + width);
     }
+
+    public void setAlpha(float alpha){
+        view.setAlpha(alpha);
+        view.requestLayout();
+
+        Log.e("alpha------>",alpha+"");
+    }
+
 
     public void setListener(ViewAnimListener listener){
         this.listener = listener;

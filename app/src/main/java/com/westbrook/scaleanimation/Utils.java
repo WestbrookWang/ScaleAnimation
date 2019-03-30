@@ -12,4 +12,11 @@ public class Utils {
 
 
 
+    public static int px2dp(Context context, float px) {
+        final float scale = context.getResources().getDisplayMetrics().density;
+        return (int) ((px-0.5)/scale);
+    }
+
+
+
 }
