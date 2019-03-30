@@ -17,6 +17,7 @@ public class ViewAnimFactory {
      */
     public void setWidth(int width) {
         view.getLayoutParams().width = width;
+
         view.requestLayout();
 
         listener.onWidth(width);

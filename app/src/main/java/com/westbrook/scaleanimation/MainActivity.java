@@ -167,4 +167,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    private int dp2Px(float dp) {
+        final float scale = getResources().getDisplayMetrics().density;
+        return (int) (dp * scale + 0.5f);
+    }
+
 }

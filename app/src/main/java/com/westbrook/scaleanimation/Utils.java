@@ -2,7 +2,7 @@ package com.westbrook.scaleanimation;
 
 import android.content.Context;
 
-public class Util {
+public class Utils {
 
 
     public static int dp2Px(Context context, float dp) {
