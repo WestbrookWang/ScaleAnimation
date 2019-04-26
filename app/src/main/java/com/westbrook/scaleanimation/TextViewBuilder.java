@@ -47,7 +47,7 @@ public class TextViewBuilder {
 
         textView.setHeight(Utils.dp2Px(context, heightDp));
 
-        textView.setText("cgyurwebvitoire");
+        textView.setText("cg"+"\n"+"123");
 
         viewAnimFactory.setView(textView);
 

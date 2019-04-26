@@ -20,7 +20,7 @@ public class ViewAnimFactory {
 
         view.requestLayout();
 
-        listener.onWidth(width);
+//        listener.onWidth(width);
     }
 
     public void setAlpha(float alpha){
